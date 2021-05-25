@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Icon</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #333;
+        }
+        svg {
+            display: block;
+            width: 100px;
+            height: auto;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <svg-icon
+        class="icon-card test"
+        file-name="card"
+        style="display: block; fill: #f05"
+    ></svg-icon>
+    <svg-icon
+        class="icon-404"
+        file-name="404"
+        style="fill: #05f"
+    ></svg-icon>
+    <svg-icon
+        file-name="bug"
+        style="fill: #0f5"
+    ></svg-icon>
+    <script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>
